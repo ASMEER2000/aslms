@@ -45,3 +45,4 @@ if (isset($result['candidates'][0]['content']['parts'][0]['text'])) {
     echo "❌ Gemini Error: " . ($result['error']['message'] ?? "Unknown error.");
 }
 ?>
+
